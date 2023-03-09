@@ -1,0 +1,65 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Gay Hub", "Ocean")
+
+--Main
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Universal (W.I.P) ")
+
+MainSection:NewButton("Infinite Yeild", "Makes you execute infyeild", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/j1YMLHrz'))()
+end)
+
+--Scripts
+local Main = Window:NewTab("Scripts")
+local MainScript = Main:NewSection("Games(W.I.P)")
+
+MainScript:NewButton("Da Hood", "Makes you execute Da Hood script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/dylannpro123/enclosed/main/enclosed'))()
+end)
+
+
+MainScript:NewButton("Azure Mine", "Makes you execute Azure Mine Script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/slendercreeper/azuremines/main/azure%20mines%20trial.lua'))()
+end)
+
+
+MainScript:NewButton("Build A Boat For Treasures", "Makes you execute Bab Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/Script.lua"))()
+end)
+
+
+MainScript:NewButton("The Rake Remastered", "Makes you execute Rake Script", function()
+    loadstring(game:HttpGet("https://realzzhub.xyz/script.lua"))()
+end)
+
+
+MainScript:NewButton("Treasure Quest", "Makes you execute Treasure Quest Script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+
+MainScript:NewButton("Murder Mystery 2", "Makes you execute MM2 Script", function()
+    getgenv().mainKey = "nil";
+
+local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+end)
+
+
+MainScript:NewButton("Lumber Tycoon 2", "Makes you execute LT2 Script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/butter-hub/main/Butterhub.txt'))()
+end)
+
+
+MainScript:NewButton("Lumber Tycoon 2 Luaware", "Makes you execute LT2 Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/luawareloader.wtf/main/watchoyodidlt2",true))()
+end)
+
+
+MainScript:NewButton("Doors", "Makes you execute Doors Script", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))()
+end)    
+
+
+MainScript:NewButton("Super Bomb Surival", "Makes you execute SBS Script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)   
